@@ -25,6 +25,7 @@ body{
     top: 10px;
     margin: 0%;
     font-weight: 1000;
+    width: fit-content;
 }
 
 .titulo{
@@ -191,6 +192,12 @@ footer img{
     z-index: 15;
     height: 50px;
     width: auto;
+}
+
+i:hover{
+    color: grey;
+    transform: scale(1.5);
+    transition: 450ms all;
 }
 
 @media (max-width:400px){}
